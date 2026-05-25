@@ -1,7 +1,5 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <meta charset = UTF-8>
     <title>Assessment Exercise Chapter 6 - Petrol Calculator</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
