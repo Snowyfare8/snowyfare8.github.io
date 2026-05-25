@@ -3,7 +3,8 @@
 <head>
     <meta charset = UTF-8>
     <title>Assessment Exercise Chapter 6 - Petrol Calculator</title>
-    <style @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
    margin: 0;
@@ -14,80 +15,51 @@ body {
    color: black
 }
 
-/* Styles header to resemble that of a gas station's roof lining */
 header {
-
     display: flex;
     background-color: rgb(255, 57, 57);
     border-bottom: 5px solid rgb(151, 36, 36);
     color: white
 }
 
-/* Adds space between title and edge of webpage */
 h1 {
-
     margin-left: 15px
-
 }
 
-/* Centres webpage's main content */
 main {
-
     justify-content: center;
     align-items: center;    
     text-align: center;     
-
 }
-
-/* Adds padding between sections of content */
 .group_1 {
-
     padding-bottom: 10px
-
 }
-
 .group_2 {
-
     padding-top: 10px;
     padding-bottom: 10px
-
 }
-
 .group_3 {
-
     padding-top: 10px
-
 }
-
-/* Makes the calculate button transition colour to green  when a cursor hover over them  */
 .calculateButton:hover {
-
     background-color: darkgreen;
     color: white;
     border: 2px solid black;
     border-radius: 10px;
     transition: background-color 1s
-
 }
-
-/* Stylesheet for all buttons */
 button {
-
     border: 2px solid black;
     border-radius: 10px
-
 }
-
-/* Makes the reset Button transition colour to red when a cursor hover over them  */
 .resetButton:hover {
-
     background-color: darkred;
     color: white;
     border: 2px solid black;
     border-radius: 10px;
     transition: background-color 1s
-
-}> <!--Link to stylesheet -->
+}
+    </style>
     <script>
         function calculateTotal () {
         let c = Number(document.getElementById("cost").value); // Cost of petrol per litre, default 1.72
